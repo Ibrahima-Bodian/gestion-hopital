@@ -8,7 +8,14 @@ public class Medecin {
     private String specialite;
 
 
-    // Je fais un constructeur pour cette classe
+    
+    /*Je fais un constructeur pour cette classe
+     * Constructeur de la classe Medecin.
+     * idmedecin qui identifie de manière unique un médecin.
+     * le paramètre nomMedecin pou le nom du médecin.
+     * le paramètre prenomMedecin pou le prenom du médecin.
+     * leparamètre specialite pour spécialité du médecin.
+     */
     public Medecin(String idMedecin, String nomMedecin, String prenomMedecin, String specialite){
         this.idMedecin=idMedecin;
         this.nomMedecin=nomMedecin;
@@ -21,14 +28,17 @@ public class Medecin {
         return idMedecin;
     }
 
+    //pour le nom du medecin
     public String getNomMedecin(){
         return nomMedecin;
     }
 
+    //pou son prenom aussi
     public String getPrenomMedecin(){
         return prenomMedecin;
     }
 
+    // et pour la specialité
     public String getSpecialite(){
         return specialite;
     }

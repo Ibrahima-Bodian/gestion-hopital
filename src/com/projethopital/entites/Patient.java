@@ -9,7 +9,12 @@ public class Patient {
     private int age;
 
 
-    // Je fais un constructeur de la classe Patient
+    // 
+    /** Je fais un constructeur de la classe Patient
+     *  idPatient-> qui identifie l'unique patient.
+     *  nom -> pour le nom du patient.
+     *  age -> pour l'âge du patient.
+     **/
     public Patient(String idPatient, String nom, String prenom, int age){
         this.idPatient=idPatient;
         this.nom=nom;
@@ -22,14 +27,17 @@ public class Patient {
         return idPatient;
     }
 
+    //le getter du nom
     public String getNom(){
         return nom;
     }
 
+    //getter pour prenom
     public String getPrenom(){
         return prenom;
     }
 
+    //getter pour l'age
     public int getAge(){
         return age;
     }

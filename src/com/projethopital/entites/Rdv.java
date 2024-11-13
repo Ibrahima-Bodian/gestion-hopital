@@ -8,10 +8,10 @@ public class Rdv {
     private Medecin medecin;
     private LocalDateTime date;
 
-    //le constructeurn de la classe Rdv et dans ce constructeur, nous avons :
-    /*le paramètre date pour date du rendez-vous.
-       paramètre patient pour patient du rendez-vous.
-       paramètre medecin pour médecin du rendez-vous.
+    /*le constructeurn de la classe Rdv et dans ce constructeur, nous avons :
+     * le paramètre -> date pour date du rendez-vous.
+     * paramètre -> patient pour patient du rendez-vous.
+     *  paramètre -> medecin pour médecin du rendez-vous.
      */
     public Rdv(Patient patient, Medecin medecin, LocalDateTime date){
         this.date=date;
@@ -19,14 +19,17 @@ public class Rdv {
         this.patient=patient;
     }
 
-    // je fais les getters
+    // je fais les getters : pour le patient
     public Patient getPatient(){
         return patient;
     }
+
+    //pour le medecin
     public Medecin getMedecin(){
         return medecin;
     }
 
+    //pour le date
     public LocalDateTime getDate(){
         return date;
     }

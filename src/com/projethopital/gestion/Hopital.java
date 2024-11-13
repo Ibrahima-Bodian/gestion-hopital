@@ -9,6 +9,8 @@ import com.projethopital.entites.Patient;
 import com.projethopital.entites.Rdv;
 import com.projethopital.gestion.Hopital;
 
+
+//cette classe Hopital gère les patients, médecins et rendez-vous de l'hôpital.
 public class Hopital {
     private List<Patient>patients;
     private List<Medecin>medecins;

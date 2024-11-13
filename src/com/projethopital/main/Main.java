@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
-        //Je cre d'abord un nouvel hopital
+        //Je cre d'abord un hopital que je vais nommer henri_mondor
         Hopital henri_mondor=new Hopital();
 
 
