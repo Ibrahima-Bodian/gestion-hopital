@@ -41,7 +41,7 @@ Main : Point d'entrée de l'application, permettant de tester les fonctionnalit�
 
 ## Installation et Configuration
 - Clonez le projet : Récupérez les fichiers du projet depuis le dépôt GitHub (ou un autre emplacement de stockage) :
-git clone https://github.com/votreutilisateur/nom-du-projet.git
+git clone https://github.com/Ibrahima-Bodian/gestion-hopital
 cd nom-du-projet/src
 
 - Compilation : Depuis le répertoire src, compilez les fichiers Java avec la commande suivante :
