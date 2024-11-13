@@ -33,8 +33,8 @@ src/
 
 
 ## Description des Classes
-Patient : Contient les informations de base d'un patient (ID, nom, âge).
-Medecin : Représente un médecin avec un ID, un nom et une spécialité.
+Patient : Contient les informations de base d'un patient (ID, nom, prénom, âge).
+Medecin : Représente un médecin avec un ID, un nom, prénom et une spécialité.
 RendezVous : Modélise un rendez-vous entre un patient et un médecin à une date spécifique.
 Hopital : Gère les collections de patients, médecins et rendez-vous, avec des méthodes pour ajouter, afficher, fixer, modifier et annuler des rendez-vous.
 Main : Point d'entrée de l'application, permettant de tester les fonctionnalités.
@@ -44,11 +44,13 @@ Main : Point d'entrée de l'application, permettant de tester les fonctionnalit�
 git clone https://github.com/Ibrahima-Bodian/gestion-hopital.git
 cd nom-du-projet/src
 
-- Compilation : Depuis le répertoire src, compilez les fichiers Java avec la commande suivante :
+- Compilation : À partir du dossier src, compilez toutes les classes en utilisant les commandes suivantes :
+cd src
 javac com/projethopital/entites/*.java com/projethopital/gestion/*.java com/projethopital/main/Main.java
 
+
 - Exécution : Lancez le programme pour tester les fonctionnalités principales :
-java ibra.monprojet.main.Main
+java com.projethopital.main.Main
 
 ## Fonctionnalités de l'Application
 Une fois le projet exécuté, vous pouvez :

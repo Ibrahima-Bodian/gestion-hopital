@@ -39,9 +39,8 @@ public class Rdv {
         this.date=date;
     }
 
+    @Override
     public String toString(){
-        return "Rendez-vous [Date : "+ date + ", " + patient +", " + medecin + ".]";
-    }
-
-    
+        return "Rendez-vous [Date : " + date + ", Patient : " + patient + ", Médecin : " + medecin + "]";
+    }  
 }

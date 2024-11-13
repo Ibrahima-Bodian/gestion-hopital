@@ -1,6 +1,6 @@
 package com.projethopital.entites;
 
-// Je fait la classe Patient qui va représenter un patient dans un hôpital
+// Je fait la classe Medecin qui va représenter un medecin dans un hôpital
 public class Medecin {
     private String idMedecin;
     private String nomMedecin;
@@ -43,8 +43,11 @@ public class Medecin {
         return specialite;
     }
 
+    @Override
     public String toString(){
-        return "[ID Medecin : " + idMedecin + " Nom du Medecin : "+ nomMedecin + " Prenom du Medecin : " + prenomMedecin + " Sa pécialité : " + specialite +"]";
+        return "[ID Médecin : " + idMedecin + ", Nom : " + nomMedecin + ", Prénom : " + prenomMedecin + ", Spécialité : " + specialite + "]";
     }
+
+
     
 }
